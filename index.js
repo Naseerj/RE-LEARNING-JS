@@ -222,25 +222,25 @@ var banger = "!";
 
 // prompt('Species?', 'Human')
 
-var numberOfCats = prompt("How many cats?");
-var tooManyCats = numberOfCats - 1;
-console.log(tooManyCats);
+// var numberOfCats = prompt("How many cats?");
+// var tooManyCats = numberOfCats - 1;
+// console.log(tooManyCats);
 
-var country = prompt("",'country');
+// var country = prompt("",'country');
 
 
-if (country === "Nigeria") {
-  alert("You are correct");
-} else if (country !== "Nigeria") {
-  country = prompt("HINT: it is in Africa");
-  if(country === 'Nigeria'){
-   alert('You are now correct')
-  }else {
-   alert("You are very wrong sir");
- }
-} else {
-  alert("You are very wrong sir");
-}
+// if (country === "Nigeria") {
+//   alert("You are correct");
+// } else if (country !== "Nigeria") {
+//   country = prompt("HINT: it is in Africa");
+//   if(country === 'Nigeria'){
+//    alert('You are now correct')
+//   }else {
+//    alert("You are very wrong sir");
+//  }
+// } else {
+//   alert("You are very wrong sir");
+// }
 
 
 var city0 = 'Atlanta'
@@ -287,6 +287,19 @@ console.log(animals)
 // const ans = animals.findIndex(lengthChecker);
 
 // console.log(ans);
+
+
+
+var nums = [1, 2, 3, 4, 5, 6]
+
+
+function prompter (){
+   promptWord = prompt('Add a name')
+  return promptWord;
+}
+
+prompter()
+console.log(promptWord + Math.floor(Math.random() * nums[5]))
 
 
 
