@@ -314,3 +314,31 @@ function checkAge(age) {
   return age > 18;
 }
 console.log(answer)
+
+
+const animals2 = ['goat', 'cat', 'dog', 'giraffe', 'rat', 'mamoth']
+
+/*DOES NOT USE INDEX USES NORMAL NUMBER*/
+
+// console.log(animals2.shift('monkey'))
+// console.log(animals2[0])
+
+// console.log(animals2)
+
+// const unshift = animals2.unshift('cobra','monkey')
+
+// animals2.splice(2,2,'Duck', 'ram')
+
+// console.log(animals2)
+
+
+// const namee = 'AYOMIDE'
+
+// console.log(namee.slice(0,3))
+console.log(animals2)
+
+const new1 = animals2.splice(2,0,'koala','elephant')
+
+console.log(animals2)
+
+// console.log(animals2.splice(1,5))
